@@ -2,16 +2,16 @@ name: Deploy de la pagina
 on:
   push:
     branches:
-      -main
+      - main
 jobs:
   deploy-page:
     runs-on: ubuntu-latest
     steps:
-      -name: Checkout
+      - name: Checkout
         uses: actions/checkout@v2.3.1
 
-      -name: Deploy
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          brach: gh-pages 
+          branch: gh-pages 
           folder: . 
