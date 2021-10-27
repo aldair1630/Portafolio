@@ -1,17 +1,12 @@
-@media only screen and (max-width: 500px) {
-    .main img {
-        width: 100px;
-        border: 5px solid aqua;
-        height: 0 auto;
-        ;
-    }
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 .divider {
@@ -22,14 +17,16 @@
     margin-bottom: 2em;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
 .wrapper {
     width: 100vw;
     height: 100vh;
     background-color: #191c32;
+    color: #fff;
+}
+
+.wrapper a {
+    list-style: none;
+    text-decoration: none;
     color: #fff;
 }
 
