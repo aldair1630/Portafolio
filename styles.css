@@ -140,6 +140,7 @@
         border: 5px solid aqua;
         height: auto;
         max-width: 100%;
+        margin: 10px;
     }
     
     .about {
@@ -147,7 +148,6 @@
         grid-template-columns: repeat(10, 1fr);
         width: 100vw;
         align-items: center;
-        margin: 10px;
     }
     
     .about img {
