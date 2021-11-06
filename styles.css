@@ -147,6 +147,7 @@
         grid-template-columns: repeat(10, 1fr);
         width: 100vw;
         align-items: center;
+        margin: 10px;
     }
     
     .about img {
