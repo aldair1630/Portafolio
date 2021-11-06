@@ -5,10 +5,32 @@
         box-sizing: border-box;
     }
     
-    @media screen and (max-width:500px) {
-        .menu a {
+    @media screen and (max-width:490) {
+        .navbar {
+            display: none !important;
+        }
+    }
+    
+    @media screen and (max-width:530px) {
+        .navbar {
             display: flex;
-            padding: 0px;
+            justify-content: space-between;
+            padding: 2em;
+            flex-wrap: wrap;
+            min-width: 100%;
+        }
+    }
+    
+    @media screen and (max-width:550px) {
+        .navbar {
+            display: flex;
+            margin-left: 0px;
+        }
+    }
+    
+    @media screen and (max-width:640px) {
+        .brand {
+            display: none !important;
         }
     }
     
@@ -109,6 +131,14 @@
         align-items: center;
     }
     
+    .main img {
+        width: 350px;
+        border: 5px solid aqua;
+        height: auto;
+        max-width: 100%;
+        margin: 25px;
+    }
+    
     h1 {
         font-size: 3em;
     }
@@ -133,14 +163,6 @@
     .download-cv:hover {
         background-color: #fff;
         box-shadow: none;
-    }
-    
-    .main img {
-        width: 350px;
-        border: 5px solid aqua;
-        height: auto;
-        max-width: 100%;
-        margin: 10px;
     }
     
     .about {
