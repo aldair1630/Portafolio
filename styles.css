@@ -401,3 +401,66 @@
         color: black;
         text-decoration: none;
     }
+    /* SCROLL  ------------------- SCROLL*/
+    
+    .scrollup-container {
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        width: 3.6rem;
+        height: 3.6rem;
+        z-index: -1;
+    }
+    
+    .scrollup-button {
+        width: 0rem;
+        height: 0rem;
+        background: #045faa;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: .2s;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+    
+    .scrollup-button i {
+        position: absolute;
+        font-size: 2rem;
+        color: #fff;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        transition: .2s;
+    }
+    
+    .show {
+        z-index: 10;
+    }
+    
+    .show .scrollup-button {
+        animation: popup 0.3s ease-in-out;
+        width: 2.6rem;
+        height: 2.6rem;
+        z-index: 11;
+    }
+    
+    .show i {
+        transition: translate(-50%, -50%) scale(1);
+    }
+    
+    @keyframes popup {
+        0% {
+            width: 0rem;
+            height: 0rem;
+        }
+        50% {
+            width: 4.4rem;
+            height: 4.4rem;
+        }
+        100% {
+            width: 2rem;
+            height: 2rem;
+        }
+    }
