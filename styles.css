@@ -427,12 +427,14 @@
     
     .scrollup-button i {
         position: absolute;
-        font-size: 2rem;
+        font-size: 1.7rem;
         color: #fff;
-        top: 40%;
+        top: 48%;
         left: 50%;
         transform: translate(-50%, -50%) scale(0);
         transition: .2s;
+        width: 1.6rem;
+        height: 1.8rem;
     }
     
     .show {
@@ -447,7 +449,7 @@
     }
     
     .show i {
-        transition: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
     }
     
     @keyframes popup {
