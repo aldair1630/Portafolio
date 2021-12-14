@@ -79,6 +79,7 @@
         padding: 2em;
         flex-wrap: wrap;
         min-width: 100%;
+        Background-size: cover;
     }
     
     .brand {
