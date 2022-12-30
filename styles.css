@@ -2,21 +2,26 @@
     * {
         margin: 0;
         padding: 0;
+        outline: 0;
         box-sizing: border-box;
     }
     
     @media screen and (max-width:490) {
         .navbar {
-            display: none !important;
+            position: fixed;
+            top: -100vh;
+            transition: all .4s;
+            /* display: none !important; */
             background-size: cover;
         }
     }
     
     @media screen and (max-width:530px) {
         .navbar {
-            display: flex;
+            position: fixed;
+            /* display: none !important; */
             justify-content: space-between;
-            padding: 2em;
+            padding: 3em;
             flex-wrap: wrap;
             min-width: 100%;
             background-size: cover;
@@ -25,7 +30,8 @@
     
     @media screen and (max-width:550px) {
         .navbar {
-            display: flex;
+            position: fixed;
+            /* display: none; */
             margin-left: 0px;
             background-size: cover;
         }
@@ -473,3 +479,11 @@
             height: 2rem;
         }
     }
+
+.btn_menu {
+    margin-right: 30px;
+    font-size: 20px;
+    color: #fff;
+    cursor:pointer;
+    display: none;
+}
