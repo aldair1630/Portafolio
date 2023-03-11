@@ -464,14 +464,26 @@ span {
     flex-direction: column;
   }
 
+  .about img {
+    height: 60vh;
+  }
+
   .works {
     display: flex;
     flex-direction: column;
   }
 
+  .work img {
+    height: 60vh;
+  }
+
   .skills {
     display: flex;
     flex-direction: column;
+  }
+
+  .skills img {
+    height: 60vh;
   }
 
   .portafolio-headings {
