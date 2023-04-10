@@ -6,13 +6,16 @@
         box-sizing: border-box;
     }
     
-    @media screen and (max-width:490) {
+    @media screen and (max-width:490px) {
         .navbar {
             position: fixed;
             top: -100vh;
             transition: all .4s;
             /* display: none !important; */
             background-size: cover;
+        }
+        .img {
+            width: 100%;
         }
     }
     
