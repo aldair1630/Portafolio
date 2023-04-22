@@ -505,12 +505,9 @@ span {
 }
 
 @media screen and (max-width: 640px) {
-  .portafolio .full-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  h1 {
+    font-size: 2em;
   }
-
   .nabvar {
     display: none;
   }
@@ -557,6 +554,18 @@ span {
 
   .skills img {
     height: 60vh;
+  }
+
+  .portafolio-headings {
+    width: 100%;
+    padding: 1em;
+    font-size: x-small;
+  }
+
+  .portafolio .full-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 }
 
