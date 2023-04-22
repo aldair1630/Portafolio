@@ -522,6 +522,42 @@ span {
   .menu {
     display: none;
   }
+
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .main img {
+    width: 70%;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about img {
+    height: 50vh;
+  }
+
+  .works {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .works img {
+    height: 60vh;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills img {
+    height: 60vh;
+  }
 }
 
 @media screen and (max-width: 890px) {
