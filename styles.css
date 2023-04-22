@@ -496,4 +496,32 @@ span {
     padding: 1em;
     font-size: x-small;
   }
+
+  .portafolio .full-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .portafolio .full-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  /* .portafolio-headings {
+    width: 100%;
+    padding: 1em;
+    font-size: x-small;
+  } */
+
+  .portafolio .full-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
