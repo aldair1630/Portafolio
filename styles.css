@@ -504,11 +504,23 @@ span {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   .portafolio .full-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+  }
+
+  .nabvar {
+    display: none;
+  }
+
+  .brand {
+    display: none;
+  }
+
+  .menu {
+    display: none;
   }
 }
 
