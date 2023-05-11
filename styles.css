@@ -92,7 +92,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  margin-top: 40px;
+  margin-top: 65px;
 }
 
 .main img {
