@@ -496,6 +496,10 @@ span {
     height: 60vh;
   }
 
+  .portafolio p {
+    font-size: 1.8em;
+  }
+
   .portafolio-headings {
     width: 100%;
     padding: 1em;
