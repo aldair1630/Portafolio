@@ -92,7 +92,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  margin-top: 65px;
+  margin-top: 40px;
 }
 
 .main img {
@@ -260,7 +260,7 @@ span {
 }
 
 .portafolio p {
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .portafolio-headings {
