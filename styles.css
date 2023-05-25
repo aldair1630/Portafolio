@@ -575,6 +575,8 @@ span {
     font-size: 2em;
   }
   
+  /* Aqui empiezan los estilos del menu despegable */
+
   /* Estilos para la hamburguesa */
 
   .navbar {
@@ -585,13 +587,9 @@ span {
     top: 0;
     width: 100%;
     z-index: 999;
-    background-color: rgba(
-      255,
-      255,
-      255,
-      0
-    ); /* Valor rgba con fondo transparente */
+    background-color: #191c32;
   }
+
   .hamburger-menu {
     display: flex;
     flex-direction: column;
@@ -600,20 +598,21 @@ span {
   }
 
   .bar {
-    width: 100%;
-    height: 100%;
+    width: 25px;
+    height: 3px;
     background-color: #000;
     margin-bottom: 4px;
   }
 
   /* Estilos para el menú desplegable */
   .menu {
+    width: 100%;
     display: none;
     list-style: none;
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: #191c32;
+    background-color: rgba(25,28,50, 0.5); /* Valor rgba con fondo transparente */
     padding: 10px;
   }
 
@@ -629,7 +628,12 @@ span {
     display: block;
   }
 
-  /* Aqui terminan los estilos del menu desplegable*/y
+  /* Añade un espacio de altura igual al menú para evitar que el contenido se superponga */
+  body {
+    padding-top: 40px; /* Ajusta el valor según sea necesario */
+  }
+
+  /* Aqui termina los estilos del menu desplegable */
 
   .brand {
     display: none;
