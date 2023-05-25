@@ -9,6 +9,13 @@ window.onscroll = function () {
 document.querySelector(".scrollup-container").addEventListener("click", () => {
   window.scrollTo({
     top: 0,
-    behavior: "smooth",
+    behavior: "smooth"
   });
+});
+
+const hamburger = document.querySelector(".hamburger-menu");
+const menu = document.querySelector(".menu");
+
+hamburger.addEventListener("click", function () {
+  menu.classList.toggle("show");
 });
