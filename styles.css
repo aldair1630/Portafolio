@@ -459,7 +459,7 @@ span {
       top: 0;
       width: 100%;
       z-index: 999;
-      background-color: #191c32;
+      background-color: rgba(255, 255, 255, 0.8); /* Valor rgba con fondo transparente */
     }
     .hamburger-menu {
       display: flex;
@@ -475,16 +475,17 @@ span {
       margin-bottom: 4px;
     }
   
-    /* Estilos para el menú desplegable */
-    .menu {
-      display: none;
-      list-style: none;
-      position: absolute;
-      top: 100%;
-      right: 0;
-      background-color: #191c32;
-      padding: 10px;
-    }
+  /* Estilos para el menú desplegable */
+  .menu {
+    width: 100%;
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: rgba(25,28,50, 0.5); /* Valor rgba con fondo transparente */
+    padding: 10px;
+  }
   
     .menu li {
       margin-bottom: 10px;
@@ -583,7 +584,7 @@ span {
     top: 0;
     width: 100%;
     z-index: 999;
-    background-color: #191c32;
+    background-color: rgba(255, 255, 255, 0.8); /* Valor rgba con fondo transparente */
   }
 
   .hamburger-menu {
@@ -602,12 +603,13 @@ span {
 
   /* Estilos para el menú desplegable */
   .menu {
+    width: 100%;
     display: none;
     list-style: none;
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: #191c32;
+    background-color: rgba(25,28,50, 0.5); /* Valor rgba con fondo transparente */
     padding: 10px;
   }
 
